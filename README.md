@@ -71,7 +71,7 @@ Adicione à interface **Tree**, o método **degree** que devolve o *grau* de um 
 
 **public int degree(Position\<E\> position) throws InvalidPositionException**
 
--   Crie os respetivos testes unitário na classe **TreeLinkedTest**, que validem o resultado da execução deste método;
+-   Crie os respetivos testes unitários na classe **TreeLinkedTest**, que validem o resultado da execução deste método;
 
 ## Nível 5 – Implementação de testes unitários
 
