@@ -53,6 +53,11 @@ public class TreeLinked<E> implements Tree<E> {
         node.element = e;
         return replacedElem;
     }
+    @Override
+    public int degree(Position<E> position) throws InvalidPositionException {
+        TreeNode node = checkPosition(position);
+        return node.children.size();
+    }
 
     @Override
     public Position<E> root() throws EmptyTreeException {

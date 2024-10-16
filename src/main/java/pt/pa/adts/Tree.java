@@ -157,6 +157,14 @@ public interface Tree<E> {
    * @return boolean indicando se existe uma relação de descendência entre lowerItem e upperItem.
    */
   boolean isAncestor(Position<E> lowerItem, Position<E> upperItem);
+  /**
+   * Retorna o grau de um nó (número de filhos).
+   *
+   * @param position a posição do nó
+   * @return o grau do nó
+   * @throws InvalidPositionException se a posição for inválida
+   */
+  int degree(Position<E> position) throws InvalidPositionException;
 
 }
 
